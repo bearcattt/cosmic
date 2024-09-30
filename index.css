@@ -2,9 +2,9 @@ body {
   background-image: url("assets/IMG_4549.jpeg")
 }
 
-.logopng {
-  height: 30px;
-  width: auto;
+.logo img {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 * {
@@ -35,8 +35,6 @@ body {
     font-size: 24px;
     text-decoration: none;
     color: white;
-    height: 30px;
-    width: auto;
 }
 
 .nav-links {
