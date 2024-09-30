@@ -52,6 +52,7 @@ body {
     color: white;
     padding: 5px 10px;
     transition: background-color 0.3s;
+  font-family: sixtyfour-convergence;
 }
 
 .nav-links a:hover {
