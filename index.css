@@ -1,5 +1,5 @@
 body {
-  background-image: url("assets/IMG_4549.jpeg")
+  background-image: url("assets/IMG_4549.jpeg");
   font-family: 'Nunito', sans-serif; /* Use Nunito as the default font */
 }
 
@@ -15,8 +15,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(146, 146, 146, 0.8)
-;
+    background-color: rgba(146, 146, 146, 0.8);
     color: white;
     width: 100%;
 }
@@ -41,14 +40,15 @@ body {
 
 .nav-links li {
     margin: 0 15px;
-    font-family: sixtyfour-convergence;
+    /* Remove or update this line if you don't want to use a different font */
+    /* font-family: sixtyfour-convergence; */
 }
 
 .nav-links a {
     text-decoration: none;
     color: white;
     padding: 5px 10px;
-    transition: background-color 0.3s
+    transition: background-color 0.3s;
     font-family: 'Nunito', sans-serif; /* Use Nunito font for links */
 }
 
