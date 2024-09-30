@@ -48,8 +48,8 @@ body {
     text-decoration: none;
     color: white;
     padding: 5px 10px;
-    transition: background-color 0.3s;
-  font-family: sixtyfour-convergence;
+    transition: background-color 0.3s
+    font-family: 'Nunito', sans-serif; /* Use Nunito font for links */
 }
 
 .nav-links a:hover {
