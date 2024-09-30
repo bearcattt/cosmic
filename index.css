@@ -1,11 +1,11 @@
 body {
   background-image: url("assets/IMG_4549.jpeg");
-  font-family: 'Nunito', sans-serif; /* Use Nunito as the default font */
+  font-family: 'Nunito', sans-serif;
 }
 
 .logo img {
-    width: 140px; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
+    width: 140px;
+    height: auto;
 }
 
 * {
@@ -31,6 +31,7 @@ body {
     font-size: 24px;
     text-decoration: none;
     color: white;
+    font-weight: 700; /* Make logo text bold */
 }
 
 .nav-links {
@@ -40,8 +41,6 @@ body {
 
 .nav-links li {
     margin: 0 15px;
-    /* Remove or update this line if you don't want to use a different font */
-    /* font-family: sixtyfour-convergence; */
 }
 
 .nav-links a {
@@ -49,7 +48,8 @@ body {
     color: white;
     padding: 5px 10px;
     transition: background-color 0.3s;
-    font-family: 'Nunito', sans-serif; /* Use Nunito font for links */
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700; /* Make the font bold */
 }
 
 .nav-links a:hover {
