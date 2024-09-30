@@ -1,5 +1,6 @@
 body {
   background-image: url("assets/IMG_4549.jpeg")
+  font-family: 'Nunito', sans-serif; /* Use Nunito as the default font */
 }
 
 .logo img {
@@ -11,10 +12,6 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: sixtyfour-convergence;
 }
 
 .navbar {
