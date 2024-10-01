@@ -59,8 +59,8 @@ body {
 
 .game-image {
   border-radius: 10px;
-    height: 100px;
-    max-width: 100px;
+    height: 130px;
+    max-width: 130px;
     cursor: pointer;
     border: 5px solid white;
   margin: 9px;
