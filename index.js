@@ -1,12 +1,3 @@
-// Task - Make games look better
-interface Game {
-  title: string;
-  logo: string;
-  alert: string;
-  category: string;
-  website: string;
-}
-
 async function loadGameList() {
   try {
     const response = await fetch("./assets/json/games.json");
@@ -29,7 +20,7 @@ loadGameList().then((gamelist) => {
     const gameContainerDiv = document.createElement("div");
     gameContainerDiv.className = "mt-10 flex flex-wrap justify-start";
 
-    gamelist.forEach((element: Game) => {
+    gamelist.forEach((element) => {
       const gamediv = document.createElement("div");
       gamediv.className = "w-1/4 m-1 p-1";
 
@@ -65,3 +56,4 @@ loadGameList().then((gamelist) => {
     document.body.appendChild(gameContainerDiv);
   }
 });
+
