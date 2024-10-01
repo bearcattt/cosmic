@@ -57,7 +57,7 @@ body {
     border-radius: 4px;
 }
 
-game-image {
+.game-image {
   border-radius: 10px;
     height: 180px;
     max-width: 180px;
