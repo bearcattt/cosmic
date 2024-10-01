@@ -1,8 +1,8 @@
 [
 {
 "title": "Yohoho",
-"game": "/games/yohoho",
-"logo": "/games/yohoho/IMG_4103.jpeg",
+"game": "./games/yohoho/index.html",
+"logo": "./games/yohoho/IMG_4103.jpeg",
 "alert": ""
 }
 
