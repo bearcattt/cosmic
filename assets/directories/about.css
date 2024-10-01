@@ -1,0 +1,58 @@
+body {
+  background-image: url("assets/IMG_4549.jpeg");
+  font-family: 'Nunito', sans-serif;
+}
+
+.logo img {
+    width: 175px;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgba(146, 146, 146, 0.8);
+    color: white;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700; /* Make logo text bold */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700; /* Make the font bold */
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
