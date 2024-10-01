@@ -56,3 +56,12 @@ body {
     background-color: #575757;
     border-radius: 4px;
 }
+
+game-image {
+  border-radius: 10px;
+    height: 180px;
+    max-width: 180px;
+    cursor: pointer;
+    border: 5px solid white;
+  margin: 9px;
+}
