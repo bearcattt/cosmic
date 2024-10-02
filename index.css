@@ -23,11 +23,8 @@ body {
 .container {
     display: flex;
     padding: 15px 20px;
-    display: flex;            /* Flexbox for horizontal alignment */
-    justify-content: flex-start;  /* Align icons starting from the left */
-    align-items: center;       /* Vertically align icons in the middle */
-    gap: 0;                    /* No gap between icons */
-    flex-wrap: nowrap;         /* Prevent icons from wrapping */
+    justify-content: space-between;  /* Space between logo and nav links */
+    align-items: center;          /* Vertically align items */
 }
 
 .logo {
@@ -60,24 +57,22 @@ body {
     border-radius: 4px;
 }
 
+.game-container {
+    display: flex;                /* Use flexbox for horizontal alignment */
+    align-items: center;         /* Center items vertically */
+    justify-content: center;      /* Center all icons horizontally */
+    gap: 0;                      /* No gaps between icons */
+    margin: 20px 0;             /* Optional: Add some space above/below the icons */
+    padding: 0;                  /* Remove any padding */
+}
+
 .game-image {
-  border-radius: 10px;
+    border-radius: 10px;
     height: 130px;
     max-width: 130px;
     cursor: pointer;
     border: 5px solid white;
-    padding: 0;
-    outline: none; /* Remove any possible outlines */
-    margin: 0; /* Ensure no margins around the icons */
-    display: block; /* Makes sure no inline spacing occurs */
-}
-
-.game-container {
-    align-items: center;
-    padding: 15px 20px;
-    gap: 0; /* This removes any gaps between the icons */
-    justify-content: space-between;
-    flex-wrap: nowrap; 
-    margin: 0;                 /* Remove any margin */
-    display: block;            /* Make sure icons are treated as block elements */
+    display: block;              /* Ensure no inline spacing occurs */
+    margin: 0;                   /* Ensure no margins around the icons */
+    padding: 0;                  /* Ensure no padding */
 }
