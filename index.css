@@ -64,7 +64,7 @@ body {
     max-width: 130px;
     cursor: pointer;
     border: 5px solid white;
-    margin: 9px;
+    margin: 0px;
     padding: 0;
     outline: none; /* Remove any possible outlines */
     display: flexbox; /* Prevent inline spacing issues */
