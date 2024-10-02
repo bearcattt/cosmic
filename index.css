@@ -67,5 +67,5 @@ body {
     margin: 9px;
     padding: 0;
     outline: none; /* Remove any possible outlines */
-    display: block; /* Prevent inline spacing issues */
+    display: grid; /* Prevent inline spacing issues */
 }
