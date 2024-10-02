@@ -60,7 +60,7 @@ body {
 .game-container {
     display: flex;                /* Use flexbox for horizontal alignment */
     align-items: center;         /* Center items vertically */
-    justify-content: center;      /* Center all icons horizontally */
+    justify-content: left;      /* Center all icons horizontally */
     gap: 0;                      /* No gaps between icons */
     margin: 20px 0;             /* Optional: Add some space above/below the icons */
     padding: 0;                  /* Remove any padding */
