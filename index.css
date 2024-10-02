@@ -71,3 +71,13 @@ body {
     margin: 0; /* Ensure no margins around the icons */
     display: block; /* Makes sure no inline spacing occurs */
 }
+
+.game-container {
+  display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 0; /* This removes any gaps between the icons */
+    display: flex;           /* Flexbox for horizontal alignment */
+    justify-content: space-between;
+    flex-wrap: nowrap; 
+}
