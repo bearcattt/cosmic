@@ -59,4 +59,20 @@ body {
 
 .game-container {
     display: flex;                /* Use flexbox for horizontal alignment */
-    align-items: center;          /*
+    align-items: center;          /* Vertically center items */
+    justify-content: center;      /* Center the icons horizontally */
+    gap: 9px;                     /* Add 9px gap between icons */
+    margin: 20px 0;               /* Optional: Add some space above/below the icons */
+    padding: 0;                   /* Remove any padding */
+}
+
+.game-image {
+    border-radius: 10px;
+    height: 130px;
+    max-width: 130px;
+    cursor: pointer;
+    border: 5px solid white;      /* White border to eliminate any inline gaps */
+    display: block;               /* Ensure no inline spacing occurs */
+    margin: 0;                    /* No margins around the icons */
+    padding: 0;                   /* No padding around the icons */
+}
