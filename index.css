@@ -24,7 +24,7 @@ body {
     display: flex;
     padding: 15px 20px;
     justify-content: space-between;  /* Space between logo and nav links */
-    align-items: center;          /* Vertically align items */
+    align-items: left;          /* Vertically align items */
 }
 
 .logo {
