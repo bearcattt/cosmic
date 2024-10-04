@@ -63,6 +63,7 @@ body {
     gap: 9px;                     /* Add 9px gap between icons */
     margin: 20px 0;               /* Optional: Add some space above/below the icons */
     padding: 0;                   /* Remove any padding */
+    float: center;
 }
 
 .game-image {
