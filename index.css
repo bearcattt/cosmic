@@ -1,6 +1,9 @@
 body {
   background-image: url("assets/IMG_4549.jpeg");
   font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling for the entire page */
 }
 
 .logo img {
@@ -24,7 +27,7 @@ body {
     display: flex;
     padding: 15px 20px;
     justify-content: space-between;  /* Space between logo and nav links */
-    align-items: center;             /* Center both the logo and nav links vertically */
+    align-items: flex-start;         /* Vertically align items */
 }
 
 .logo {
@@ -57,14 +60,16 @@ body {
     border-radius: 4px;
 }
 
-/* Center game icons */
 .game-container {
-    display: flex;                /* Use flexbox for layout */
-    justify-content: center;      /* Center icons horizontally */
-    align-items: center;          /* Center icons vertically */
+    display: flex;                /* Use flexbox for horizontal alignment */
+    flex-wrap: wrap;              /* Wrap items to the next line */
     gap: 9px;                     /* Add 9px gap between icons */
-    margin: 20px 0;               /* Optional: Add space above/below the icons */
-    padding: 0;
+    margin: 20px 0;               /* Optional: Add some space above/below the icons */
+    padding: 0;                   /* Remove any padding */
+    height: 100vh;                /* Ensure it fits the viewport height */
+    overflow-x: scroll;           /* Allow horizontal scrolling */
+    flex-direction: column;       /* Stack the rows vertically */
+    white-space: nowrap;          /* Ensure no wrapping of the rows */
 }
 
 .game-image {
@@ -72,8 +77,8 @@ body {
     height: 130px;
     max-width: 130px;
     cursor: pointer;
-    border: 5px solid white;      /* White border around icons */
-    display: block;               /* Ensure no inline spacing occurs */
+    border: 5px solid white;      /* White border to eliminate any inline gaps */
+    display: inline-block;        /* Makes sure the icons line up without breaking */
     margin: 0;                    /* No margins around the icons */
     padding: 0;                   /* No padding around the icons */
 }
