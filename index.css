@@ -62,14 +62,13 @@ body {
 
 .game-container {
     display: flex;                /* Use flexbox for horizontal alignment */
-    flex-wrap: wrap;              /* Wrap items to the next line */
-    gap: 9px;                     /* Add 9px gap between icons */
+    flex-wrap: wrap;              /* Wrap items to the next line when necessary */
+    gap: 9px;                     /* Add a 9px gap between icons */
     margin: 20px 0;               /* Optional: Add some space above/below the icons */
     padding: 0;                   /* Remove any padding */
-    height: 100vh;                /* Ensure it fits the viewport height */
-    overflow-x: scroll;           /* Allow horizontal scrolling */
-    flex-direction: column;       /* Stack the rows vertically */
-    white-space: nowrap;          /* Ensure no wrapping of the rows */
+    justify-content: flex-start;  /* Align items at the start of each line */
+    width: 100%;                  /* Take up the full width of the screen */
+    overflow-x: auto;             /* Allow horizontal scrolling */
 }
 
 .game-image {
@@ -78,7 +77,7 @@ body {
     max-width: 130px;
     cursor: pointer;
     border: 5px solid white;      /* White border to eliminate any inline gaps */
-    display: inline-block;        /* Makes sure the icons line up without breaking */
+    display: block;               /* Ensure no inline spacing occurs */
     margin: 0;                    /* No margins around the icons */
     padding: 0;                   /* No padding around the icons */
 }
