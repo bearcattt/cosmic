@@ -57,13 +57,14 @@ body {
     border-radius: 4px;
 }
 
+/* Center game icons */
 .game-container {
-    display: flex;                /* Use flexbox for horizontal alignment */
-    align-items: center;          /* Vertically center items */
+    display: flex;                /* Use flexbox for layout */
+    justify-content: center;      /* Center icons horizontally */
+    align-items: center;          /* Center icons vertically */
     gap: 9px;                     /* Add 9px gap between icons */
-    margin: 20px 0;               /* Optional: Add some space above/below the icons */
-    padding: 0;                   /* Remove any padding */
-    float: center;
+    margin: 20px 0;               /* Optional: Add space above/below the icons */
+    padding: 0;
 }
 
 .game-image {
@@ -71,7 +72,7 @@ body {
     height: 130px;
     max-width: 130px;
     cursor: pointer;
-    border: 5px solid white;      /* White border to eliminate any inline gaps */
+    border: 5px solid white;      /* White border around icons */
     display: block;               /* Ensure no inline spacing occurs */
     margin: 0;                    /* No margins around the icons */
     padding: 0;                   /* No padding around the icons */
