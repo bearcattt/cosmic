@@ -69,6 +69,7 @@ body {
     justify-content: flex-start;  /* Align items at the start of each line */
     width: 100%;                  /* Take up the full width of the screen */
     overflow-x: auto;             /* Allow horizontal scrolling */
+    float: center;
 }
 
 .game-image {
