@@ -31,20 +31,22 @@
         </div>
     </nav>
     <script>
-           // Disable scrolling
-function disableScroll() {
-    document.body.style.overflow = 'hidden';
+// Disable horizontal scrolling
+function disableHorizontalScroll() {
+    document.body.style.overflowX = 'hidden'; // Prevent horizontal scrolling
+    document.body.style.overflowY = 'auto';   // Allow vertical scrolling
 }
 
-// Enable scrolling
-function enableScroll() {
-    document.body.style.overflow = 'auto';
+// Enable horizontal scrolling (if needed)
+function enableHorizontalScroll() {
+    document.body.style.overflowX = 'auto';   // Allow horizontal scrolling
+    document.body.style.overflowY = 'auto';   // Allow vertical scrolling
 }
 
 // Example usage
-disableScroll(); // Call this to disable scrolling
-// enableScroll(); // Call this to enable scrolling again
-    </script>
+disableHorizontalScroll(); // Call this to disable horizontal scrolling
+// enableHorizontalScroll(); // Call this to enable horizontal scrolling again
+</script>
     <!-----------------------------------------------------------|Game Add|------------------------------------->
   <div class="game-container">
     <a href="./games/yohoho/index.html">
