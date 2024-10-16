@@ -26,9 +26,9 @@ body {
 }
 
 .nav-links {
-  list-style: none;
-  display: flex;
+  list-style: none; /* This removes the bullets */
 }
+
 
 .nav-links li {
   margin: 0 15px;
