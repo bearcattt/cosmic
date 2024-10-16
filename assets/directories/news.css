@@ -1,5 +1,7 @@
 body {
-  background-image: url("assets/IMG_4549.jpeg");
+  background-image: url("../IMG_4549.jpeg"); /* Adjust this path if needed */
+  background-size: cover;
+  background-position: center;
   font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
