@@ -1,13 +1,11 @@
-/* Body styling */
 body {
-  background-image: url("../IMG_4549.jpeg"); /* Ensure the correct path */
+  background-image: url("../IMG_4549.jpeg"); /* Adjust this path if needed */
+  background-size: cover;
+  background-position: center;
   font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
-  background-size: cover; /* Make the background cover the whole page */
-  background-position: center;
 }
-
 /* Navbar styling */
 .navbar {
   background-color: rgba(146, 146, 146, 0.8);
