@@ -28,6 +28,7 @@ body {
 
 .nav-links {
   list-style: none; /* This removes the bullets */
+  display: flex;
 }
 
 
