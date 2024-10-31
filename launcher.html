@@ -140,22 +140,8 @@
     }
 
     function exploreCosmics() {
-      const frame = document.createElement("iframe");
-      frame.id = 'frame';
-      frame.setAttribute("src", "index.html");
-      frame.style.height = "100vh";
-      frame.style.width = "100vw";
-      frame.style.border = "none";
-      document.body.innerHTML = '';
-      document.body.appendChild(frame);
-
-      const updateTitle = () => {
-        try {
-          document.title = frame.contentDocument.title || "Proton";
-        } catch (e) {
-          console.error("Unable to get iframe title", e);
-        }
-      };
+      window.location.href = "./index.html"
+    };
 
       const titleInterval = setInterval(() => {
         updateTitle();
